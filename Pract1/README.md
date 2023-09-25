@@ -51,4 +51,20 @@ Si ahora accedemos a la ip de nuestro servidor web mediante google chrome veremo
 # 2da mejora solución: introducción a los WAF - Web Application Firewall (firewall capa 7) 
 
 # 4ta mejora solución - 1 punto
+Algunas de las mejoras que se podrían implantar podrían ser las siguientes: 
 
+#### Configuración de VPN
+
+Mediante la implementación de uan red privada virtual para acceder al servidor web se mejoraría la seguridad de nuestro sistema , a que añadiríamos un nuevo método de seguridad para que solo los usuarios con acceso puediesen conectarse a esa VPN. 
+
+#### Protección de ataques de fuerta bruta 
+
+Para ello se podría configurar el WAF para detectar este tipo de ataques de las siguientes maneras: 
+
+Bloqueo de intentos fallidos
+Uso de autenticación multifactor (MFA)
+Reglas de bloqueo de IP:
+
+#### Respaldo y restauración del WAF 
+
+Configurar un plan de respaldo y restauración para el WAF y las reglas de configuración. Esto garantiza que, en caso de falla del WAF o de cambios no deseados en las reglas, puedas restaurar rápidamente la configuración correcta.
