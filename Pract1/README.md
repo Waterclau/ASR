@@ -29,9 +29,14 @@ Si hemos configurado el firewall de manera correcta , deberíamos ver como ahora
 
 ![image](https://github.com/Waterclau/ASR/assets/91564866/81cb7734-75fb-46c7-9146-6ef86a1ea739)
 
-sdjkfskdf
+Dentro de la máquina de salto generaremos unas nuevas claves ssh y repetiremos los mismos pasos para conectarnos a la máquina del servidor web.
 
 ![image](https://github.com/Waterclau/ASR/assets/91564866/41eded52-8abe-43e1-9b96-867ce7ab0eb1)
 
+Desde el servidor web instalaresmos ngx , para comprobar que nuestra configuración funciona de manera correcta, mediante los siguientes comandos:
+#### sudo apt update
+#### sudo apt install nginx
+
+Si ahora accedemos a la ip de nuestro servidor web mediante google chrome veremos la siguiente ventana, siendo correcta nuestra configuración. 
 ![image](https://github.com/Waterclau/ASR/assets/91564866/907750a3-c4ff-4fee-99be-1d2136d5089b)
 
