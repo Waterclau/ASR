@@ -1,4 +1,4 @@
-# Parte 1
+# 1a Solución: creación de máquina de salto 
 ## Paso 1: Crear una instancia de máquina virtual (VM) para el salto
 Tras iniciar sesion en google cloud, navegamos a la sección VM instances y creamos dos instancias para este apartado.
 
@@ -47,4 +47,8 @@ Desde el servidor web instalaresmos ngx , para comprobar que nuestra configuraci
 Si ahora accedemos a la ip de nuestro servidor web mediante google chrome veremos la siguiente ventana, siendo correcta nuestra configuración.
 
 ![image](https://github.com/Waterclau/ASR/assets/91564866/907750a3-c4ff-4fee-99be-1d2136d5089b)
+
+# 2da mejora solución: introducción a los WAF - Web Application Firewall (firewall capa 7) 
+
+# 4ta mejora solución - 1 punto
 
