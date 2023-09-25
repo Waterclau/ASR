@@ -5,13 +5,15 @@ Tras iniciar sesion en google cloud, navegamos a la sección VM instances y crea
 Como se puede ver en esta imagen , creamos una VM que utilizaremos como salto y otra llamada WEB que simulará la función del servidor web. 
 En ambas máquinas ha sido necesario configurar la región, disco de arranque (con sistema Ubunto) y etiquetas que utilizaremos para asociar las reglas de firewall creadas a continuación.
 
-## Paso 2 : editar las reglas de firewall
-En este apartado creamos dos reglas, una para el servidor de salto y otra para el servidor de web.
+##  Paso 2: Establecer las reglas de firewall
+A continuación creamos dos reglas de firewall:
 ![image](https://github.com/Waterclau/ASR/assets/91564866/b4a830f5-7b37-4e41-864e-931ba765523e)
-En cada uno de los firewalls configuraremos las reglas para que se pueda acceder desde nuestra máquina y permita conexiones seguras con el servidor. 
+La primera se encarga de establecer una conexión segura entre nuestro pc y el servidor de salto.
 ![image](https://github.com/Waterclau/ASR/assets/91564866/7de02703-4165-498c-bb2c-0c682257e60a)
-
+Mientras que la segunda se encarga de establecer una conexión segura entre el servidor de salto y el servidor web.
+En cada una de estas reglas variamos las etiquetas y los rangos de ip necesarios para que se ajusten a las conexiones que queremos establecer en cada paso. 
 ssh-keygen -t rsa -b 2048 -f "ruta\hacia\la\clave\id_rsa"
+
 
 ![image](https://github.com/Waterclau/ASR/assets/91564866/d73ee061-fddb-431f-98a1-b08a9405e5a7)
 
