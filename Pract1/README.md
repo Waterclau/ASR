@@ -1,7 +1,7 @@
 # Parte 1
 ## Paso 1: Crear una instancia de máquina virtual (VM) para el salto
 Tras iniciar sesion en google cloud, navegamos a la sección VM instances y creamos dos instancias para este apartado. 
-![image](https://github.com/Waterclau/ASR/assets/91564866/ca012ff7-6dc9-48ba-a514-ac526a1b8259)
+![image](https://github.com/Waterclau/ASR/assets/91564866/9ff77c1e-7caa-426e-9a92-57ef91115af5)
 Como se puede ver en esta imagen , creamos una VM que utilizaremos como salto y otra llamada WEB que simulará la función del servidor web. 
 En ambas máquinas ha sido necesario configurar la región, disco de arranque (con sistema Ubunto) y etiquetas que utilizaremos para asociar las reglas de firewall creadas a continuación.
 
