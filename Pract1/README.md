@@ -16,7 +16,13 @@ En el de salto , es necesario añadir la ip de nuestro pc, mientras que en el de
 
 ## Paso 3: Claves ssh
 
-En este paso generaremos las claves SSH , las cuales son claves criptográficas compuestas por una clave privada y una clave pública, usadas para autentificar y cifrar la comunicación entre sistemas.
+En este paso generaremos las claves SSH , las cuales son claves criptográficas compuestas por una clave privada y una clave pública, usadas para autentificar y cifrar la comunicación entre sistemas, mediante el siguiente comando: 
+
+### ssh-keygen -t rsa -b 2048 -f "ruta\hacia\la\clave\id_rsa"
+
+Una vez hecho esto añadiremos la clave pública en google cloud. 
+
+
 
 ![image](https://github.com/Waterclau/ASR/assets/91564866/81cb7734-75fb-46c7-9146-6ef86a1ea739)
 
@@ -24,12 +30,5 @@ sdjkfskdf
 
 ![image](https://github.com/Waterclau/ASR/assets/91564866/41eded52-8abe-43e1-9b96-867ce7ab0eb1)
 
-
-
-ssh-keygen -t rsa -b 2048 -f "ruta\hacia\la\clave\id_rsa"
-
-
-![image](https://github.com/Waterclau/ASR/assets/91564866/d73ee061-fddb-431f-98a1-b08a9405e5a7)
-
-![image](https://github.com/Waterclau/ASR/assets/91564866/c674a5fe-f05d-463d-9fbe-05eaabce6766)
+![image](https://github.com/Waterclau/ASR/assets/91564866/907750a3-c4ff-4fee-99be-1d2136d5089b)
 
