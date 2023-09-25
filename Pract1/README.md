@@ -37,6 +37,6 @@ Desde el servidor web instalaresmos ngx , para comprobar que nuestra configuraci
 #### sudo apt update
 #### sudo apt install nginx
 
-Si ahora accedemos a la ip de nuestro servidor web mediante google chrome veremos la siguiente ventana, siendo correcta nuestra configuración. 
+Si ahora accedemos a la ip de nuestro servidor web mediante google chrome veremos la siguiente ventana, siendo correcta nuestra configuración.
 ![image](https://github.com/Waterclau/ASR/assets/91564866/907750a3-c4ff-4fee-99be-1d2136d5089b)
 
