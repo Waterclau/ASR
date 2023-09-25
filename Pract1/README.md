@@ -18,11 +18,14 @@ En el de salto , es necesario añadir la ip de nuestro pc, mientras que en el de
 
 En este paso generaremos las claves SSH , las cuales son claves criptográficas compuestas por una clave privada y una clave pública, usadas para autentificar y cifrar la comunicación entre sistemas, mediante el siguiente comando: 
 
-### ssh-keygen -t rsa -b 2048 -f "ruta\hacia\la\clave\id_rsa"
+#### ssh-keygen -t rsa -b 2048 -f "ruta\hacia\la\clave\id_rsa"
 
-Una vez hecho esto añadiremos la clave pública en google cloud. 
+Una vez hecho esto añadiremos la clave pública en google cloud.
+![image](https://github.com/Waterclau/ASR/assets/91564866/4123d8da-a2c2-45f1-abd4-6df9fad99983)
 
-
+Tras esto nos conectaremos a la máquina de salto desde la consola de nuestro pc mediante el siguiente comando: 
+#### ssh "ip externa del servidor de salto" -i "ruta\hacia\la\clave\id_rsa" .
+Si hemos configurado el firewall de manera correcta , deberíamos ver como ahora estamos dentro de nuestra máquina de salto: 
 
 ![image](https://github.com/Waterclau/ASR/assets/91564866/81cb7734-75fb-46c7-9146-6ef86a1ea739)
 
