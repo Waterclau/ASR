@@ -61,9 +61,11 @@ Mediante la implementación de uan red privada virtual para acceder al servidor 
 
 Para ello se podría configurar el WAF para detectar este tipo de ataques de las siguientes maneras: 
 
-Bloqueo de intentos fallidos
-Uso de autenticación multifactor (MFA)
-Reglas de bloqueo de IP:
+Bloqueo de intentos fallidos : configurando un mecanisomo que limite el acceso despues de un nº de intentos
+
+Uso de autenticación multifactor (MFA) : El MFA requiere que los usuarios proporcionen más de uan forma de autenticación antes del acceso, por lo que se aumenta la seguridad de nuestro sistema incrementanto las capas de seguridad. 
+
+Reglas de bloqueo de IP: bloqueando asi las IP que intenten acceder sin éxito un determinado número de veces. 
 
 #### Respaldo y restauración del WAF 
 
