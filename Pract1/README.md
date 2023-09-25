@@ -22,6 +22,9 @@ En este paso generaremos las claves SSH , las cuales son claves criptográficas 
 
 sdjkfskdf
 
+![image](https://github.com/Waterclau/ASR/assets/91564866/41eded52-8abe-43e1-9b96-867ce7ab0eb1)
+
+
 
 ssh-keygen -t rsa -b 2048 -f "ruta\hacia\la\clave\id_rsa"
 
