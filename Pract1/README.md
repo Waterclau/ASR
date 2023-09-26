@@ -82,7 +82,23 @@ Además crearemos una instacia de grupo para facilitar la gestión del WAF. Medi
 
 ![image](https://github.com/Waterclau/ASR/assets/91564866/2c9134c0-a73b-4bc9-95a9-8fcf81b125b0)
 
-load balance
+El siguiente paso será configurar el load balancer, donde hay que tener en cuenta los siguientes puntos: 
+
+* Configuración del frontend
+
+Donde se asigna la direción IP y el puerto por defecto
+
+* Configuración del backend
+
+Donde se asigna el puerto y protocolo para comunicarse con las instancias , siendo en este caso el puerto 80.
+
+* Configurarción el balanceo de carga
+
+Definimos la prioridad y el puerto del balanceador.
+
+* Configurar el WAF
+
+Necesario para proteger nuestros servidores contra ataques de SQL injection.
 
 ![image](https://github.com/Waterclau/ASR/assets/91564866/015e9b03-001d-49d6-8904-6be13a6326bc)
 
