@@ -84,6 +84,8 @@ Además crearemos una instacia de grupo para facilitar la gestión del WAF. Medi
 
 El siguiente paso será configurar el load balancer, donde hay que tener en cuenta los siguientes puntos: 
 
+falta certif
+
 * Configuración del frontend
 
 Donde se asigna la direción IP y el puerto por defecto
