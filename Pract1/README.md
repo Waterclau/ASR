@@ -100,12 +100,15 @@ Definimos la prioridad y el puerto del balanceador.
 
 Necesario para proteger nuestros servidores contra ataques de SQL injection.
 
+Una vez hecho esto tendremos la siguiente configuración: 
+
 ![image](https://github.com/Waterclau/ASR/assets/91564866/015e9b03-001d-49d6-8904-6be13a6326bc)
 
-ngxx
+Instalaremos ngx de la misma manera que se ha realizado en el apartado 1. 
 
+Si la configuración se ha realizado de manera correcta deberíamos ver lo siguiente al acceder a la IP del load balancer: 
 
-
+![image](https://github.com/Waterclau/ASR/assets/91564866/7fa7389e-5689-4a80-858b-d705fc1221e5)
 
 # 4ta mejora solución - 1 punto
 Algunas de las mejoras que se podrían implantar podrían ser las siguientes: 
