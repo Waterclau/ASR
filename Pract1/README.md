@@ -115,18 +115,18 @@ Algunas de las mejoras que se podrían implantar podrían ser las siguientes:
 
 #### Configuración de VPN
 
-Mediante la implementación de uan red privada virtual para acceder al servidor web se mejoraría la seguridad de nuestro sistema , a que añadiríamos un nuevo método de seguridad para que solo los usuarios con acceso puediesen conectarse a esa VPN. 
+* Mediante la implementación de uan red privada virtual para acceder al servidor web se mejoraría la seguridad de nuestro sistema , a que añadiríamos un nuevo método de seguridad para que solo los usuarios con acceso puediesen conectarse a esa VPN. 
 
 #### Protección de ataques de fuerta bruta 
 
 Para ello se podría configurar el WAF para detectar este tipo de ataques de las siguientes maneras: 
 
-Bloqueo de intentos fallidos : configurando un mecanisomo que limite el acceso despues de un nº de intentos
+* Bloqueo de intentos fallidos : configurando un mecanisomo que limite el acceso despues de un nº de intentos
 
-Uso de autenticación multifactor (MFA) : El MFA requiere que los usuarios proporcionen más de uan forma de autenticación antes del acceso, por lo que se aumenta la seguridad de nuestro sistema incrementanto las capas de seguridad. 
+* Uso de autenticación multifactor (MFA) : El MFA requiere que los usuarios proporcionen más de uan forma de autenticación antes del acceso, por lo que se aumenta la seguridad de nuestro sistema incrementanto las capas de seguridad. 
 
-Reglas de bloqueo de IP: bloqueando asi las IP que intenten acceder sin éxito un determinado número de veces. 
+* Reglas de bloqueo de IP: bloqueando asi las IP que intenten acceder sin éxito un determinado número de veces. 
 
 #### Respaldo y restauración del WAF 
 
-Configurar un plan de respaldo y restauración para el WAF y las reglas de configuración. Esto garantiza que, en caso de falla del WAF o de cambios no deseados en las reglas, puedas restaurar rápidamente la configuración correcta.
+* Configurar un plan de respaldo y restauración para el WAF y las reglas de configuración. Esto garantiza que, en caso de falla del WAF o de cambios no deseados en las reglas, puedas restaurar rápidamente la configuración correcta.
