@@ -110,7 +110,7 @@ Instalaremos ngx de la misma manera que se ha realizado en el apartado 1.
 
 Si la configuración se ha realizado de manera correcta deberíamos ver lo siguiente al acceder a la IP del load balancer: 
 
-![image](https://github.com/Waterclau/ASR/assets/91564866/7fa7389e-5689-4a80-858b-d705fc1221e5)
+![https](https://github.com/Waterclau/ASR/assets/91564866/1f439cbf-e04b-4a44-b172-862cac2974e4)
 
 # 4ta mejora solución - 1 punto
 Algunas de las mejoras que se podrían implantar podrían ser las siguientes: 
