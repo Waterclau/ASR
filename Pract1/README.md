@@ -82,7 +82,7 @@ Además crearemos una instacia de grupo para facilitar la gestión del WAF. Medi
 
 ![image](https://github.com/Waterclau/ASR/assets/91564866/2c9134c0-a73b-4bc9-95a9-8fcf81b125b0)
 
-load balancer
+load balance
 
 ![image](https://github.com/Waterclau/ASR/assets/91564866/015e9b03-001d-49d6-8904-6be13a6326bc)
 
