@@ -91,6 +91,8 @@ El certificado implementado es el siguiente y ha sido obtenido mediante los paso
 
 ![image](https://github.com/Waterclau/ASR/assets/91564866/594380c9-2a93-4e64-91b9-72285f293f5f)
 
+Una vez generado, lo añadiremos a nuestro balanceador de carga.
+
 * Configuración del frontend
 
 Donde se asigna la direción IP y el puerto por defecto
