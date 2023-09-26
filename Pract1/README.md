@@ -50,6 +50,12 @@ Si ahora accedemos a la ip de nuestro servidor web mediante google chrome veremo
 
 # 2da mejora solución: introducción a los WAF - Web Application Firewall (firewall capa 7) 
 
+## ¿Qué ventajas e inconvenientes tiene hacer HTTPS offloading en el balanceador?
+
+* Mejoras en rendimiento
+
+
+
 web2
 
 ![image](https://github.com/Waterclau/ASR/assets/91564866/cb082db0-3370-48d0-99e2-f511bcbfe704)
