@@ -24,7 +24,7 @@ En el de salto , es necesario añadir la ip de nuestro pc, mientras que en el de
 
 En este paso generaremos las claves SSH , las cuales son claves criptográficas compuestas por una clave privada y una clave pública, usadas para autentificar y cifrar la comunicación entre sistemas, mediante el siguiente comando: 
 
-#### ssh-keygen -t rsa -b 2048 -f "ruta\hacia\la\clave\id_rsa"
+#### ssh-keygen -t rsa -b 2048 -f "ruta\hacia\la\clave\id_rsa" 
 
 Una vez hecho esto añadiremos la clave pública en google cloud.
 
