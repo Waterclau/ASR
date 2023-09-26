@@ -64,20 +64,23 @@ Se incrementan las medidas de seguridad al implementar WAF, que maneja el tráfi
 
 ### Inconvenientes 
 
+* Mayor complegidad
 
+La configuración de HTTPS offloading aumenta significativamente la complegidad de la configuración del cifrado del tráfico entre los servidores. 
 
+### Pasos necesarios
 
-web2
+Para esta parte crearemos una nueva VM , web2 , y utilizaremos la VM de salto del apartado anterior.
 
 ![image](https://github.com/Waterclau/ASR/assets/91564866/cb082db0-3370-48d0-99e2-f511bcbfe704)
 
-firewall 
+Actualizaremos las reglas de firewall para que permita realizar el health check.
 
 ![image](https://github.com/Waterclau/ASR/assets/91564866/94db974e-44eb-432d-b156-3c7d9f3310f1)
 
-instance group
+Además crearemos una instacia de grupo para facilitar la gestión del WAF. Mediante este grupo podemos aplicar las regals de seguridad para todas las intancias que pertenezcan a este grupo. 
 
-![image](https://github.com/Waterclau/ASR/assets/91564866/28ba4bd8-8ec7-4996-8b88-1a3fe4f720cc)
+![image](https://github.com/Waterclau/ASR/assets/91564866/2c9134c0-a73b-4bc9-95a9-8fcf81b125b0)
 
 load balancer
 
