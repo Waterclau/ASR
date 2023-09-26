@@ -84,7 +84,7 @@ Además crearemos una instacia de grupo para facilitar la gestión del WAF. Medi
 
 El siguiente paso será configurar el load balancer, donde hay que tener en cuenta los siguientes puntos: 
 
-* Generació de certificado
+* Generación de certificado
 
 Establecer un certificado en el balanceador de carga es necesario para proporcionar una comunicación segura y cifrada entre las distintas máquinas. 
 El certificado implementado es el siguiente y ha sido obtenido mediante los pasos explicados en clase: 
