@@ -50,6 +50,27 @@ Si ahora accedemos a la ip de nuestro servidor web mediante google chrome veremo
 
 # 2da mejora solución: introducción a los WAF - Web Application Firewall (firewall capa 7) 
 
+web2
+
+![image](https://github.com/Waterclau/ASR/assets/91564866/cb082db0-3370-48d0-99e2-f511bcbfe704)
+
+firewall 
+
+![image](https://github.com/Waterclau/ASR/assets/91564866/94db974e-44eb-432d-b156-3c7d9f3310f1)
+
+instance group
+
+![image](https://github.com/Waterclau/ASR/assets/91564866/28ba4bd8-8ec7-4996-8b88-1a3fe4f720cc)
+
+load balancer
+
+![image](https://github.com/Waterclau/ASR/assets/91564866/015e9b03-001d-49d6-8904-6be13a6326bc)
+
+ngx
+
+
+
+
 # 4ta mejora solución - 1 punto
 Algunas de las mejoras que se podrían implantar podrían ser las siguientes: 
 
