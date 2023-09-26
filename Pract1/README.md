@@ -52,7 +52,18 @@ Si ahora accedemos a la ip de nuestro servidor web mediante google chrome veremo
 
 ## ¿Qué ventajas e inconvenientes tiene hacer HTTPS offloading en el balanceador?
 
+### Ventajas
+
 * Mejoras en rendimiento
+
+Al permitir al balanceador hacere HTTPS offloading, este se encarga de las tareas de descarga de los cifrado y descrifado, quitando trabajo de los servidores, resultando en unos mejores tiempos de respuesta.
+
+* Mayor seguridad
+
+Se incrementan las medidas de seguridad al implementar WAF, que maneja el tráfico antes de su llegada a los servidores backend. 
+
+### Inconvenientes 
+
 
 
 
