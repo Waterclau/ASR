@@ -1,0 +1,4 @@
+C:\Users\claud\Comi_archi\ASR\project1-398706-0e4eed91eada
+
+ansible-playbook main.yml -u sa_103467691438403334461
+
