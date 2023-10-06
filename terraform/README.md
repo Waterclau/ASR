@@ -4,3 +4,7 @@
 terraform plan. 
 ![image](https://github.com/Waterclau/ASR/assets/91564866/4fc1daac-2853-48c4-aafa-fbb533fa6c74)
 
+terraform apply 
+![image](https://github.com/Waterclau/ASR/assets/91564866/03ad4918-bb7e-4841-83d1-62c393edcd71)
+
+
