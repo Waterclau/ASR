@@ -1,11 +1,12 @@
+---
 # ansible notebook, to configure the VMs on GCP
 - name: Create Compute Engine instances
   hosts: localhost
   gather_facts: no
   vars:
-      gcp_project: Project1 #Setear vuestro proyecto
+      gcp_project: "project1-398706" # Setea tu proyecto
       gcp_cred_kind: serviceaccount
-      gcp_cred_file: "C:\Users\claud\Comi_archi\ASR\project1-398706-0e4eed91eada" #Aqui setear con la ruta de vuestra SA
+      gcp_cred_file: "id/project1-398706-0e4eed91eada"
       region: "europe-west1"
       zone: "europe-west1-d"
       machine_type: "n1-standard-1"
@@ -20,6 +21,7 @@
        service_account_file: "{{ gcp_cred_file }}"
        auth_kind: "{{ gcp_cred_kind }}"
      register: gce_ip
+
    - name: Bring up the instance in the zone
      gcp_compute_instance:
        name: "maquina-prueba"

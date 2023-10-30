@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "project1-398706",
+  "private_key_id": "0e4eed91eada6601405e90363cd0fdcff47ffd95",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCTqBIwh36kk01/\nphZUwTd1ruRdrlJnDxBZmRPylBJ+ZRyeSBc1PZJRAArRt7/qVBG/5y2dVVynUu+D\nA6BK2JHxKXNdi4eOifjjFVcfp+bhzslzlp9alPyI1uoZzHSziLGAKbpjdgkQ0V7Z\nyGTCPrS7c0xQMpPNk7uSIhbthzIEk7C2l22I34hj4Fpi3yeIMYhpwjWIq8vuGS+4\nQqGOmTRZ6YsVTyiYDzz5BeaAYdFP4SzgrPpZZhiWEmeZu558Q6UV+HWNn5oxEpFC\nIIh3j4u20qJkzLQFJveCVcOqNkdw5mBY/9h+0qUgSBkjFRWTwLfiO4c98Wc6WE8a\nFe6PYGpjAgMBAAECggEAFhfZ0OUVL+7Sc70YLkpS0AsBJHtG3SDF44IiF/PL6Jmc\ndJp4zoCN+gy1kbeawacemMYwbxAssuSX7dSHEWviOmFnX6HXAJ7oXKH+zT/ELhlQ\nzzjEUztjpd3yXTXYaFyVooWb2/H3XUrWlGOFoALd7AZObtmCgAoQ0MbFA3ltJH3y\njlPYchyhtc5enpiXTgAPSAtfjNUTsobHpl1uWCfieRDWYW9vtSFVMx5dmStrBvKr\n2oxZHX5gTzRrld8khHe5SFt71szYJ48ygaFMONQHwZA3umlgadGgkvjuZKUXT/ZV\ndpELFpRPSxRmH4A+5TlUO7Fm3pm/42zGprr8MpzYwQKBgQDDG0rI2h0QZA+OnUZ9\n+1QAPkBuV+7Kr7osGNzhVqiFUruEApSfBxkZyH1+2pms8GB17e53cJQ6dxFib2s+\nvaD53+dNuXks2Db032TExwPwtLPNU2n+SZz0ZzUb7xHVgeEQbwy1fow4FNFfnB0m\nvR8Pax8q6Wv+/+B3LARpLm2I8wKBgQDBvZfB7EpiNw4H1/7zNQ9PQVCapbsp4Cqj\n1ZD28s3kuveIIutg+2V/wFat8DX+MiM7iYek9NeQYxISu6ffaluCU4wcpdHD2nef\nFEM1Z/Z4WXkt3Z0dWBKJ53MdsOwOY2mg0gXj4q+jahTmA+eHGuuNtKCMkykU+GbE\nkmRb0+T00QKBgBEDiUL4mj46q4yhNGt6Bjo7M30r19v+9PoxdNmFqA5wR3/chb9U\nbCDuddshDvOgxpiiFgB+Zb6vcWmnE7AV8zq3BsGlYebCOBCkhnIOdM6Bw4gtNPoC\ny1gYw+3arDB1Mf4v4OjWzz14u0VeJMCjD1lV2xLv5gYHpDhgM0ZE0TJ3AoGAZqUu\nXB32ouaMVneHqg84l0MBk42vBdawgLDL5yppD4BHWSc3EeDfu7mJswoLcSvbItYQ\nucLG2sbCco5duK6+4OOm3h60blG3At9XZFo6aTTuUPCTJ1LcL5gik16DEnR1KDFd\n0YjuiWPQwrTa2+fVWPSUAyaMo4Gf4RG2fjhbm6ECgYA+FMcfAw8oeuZ9mKdfsqaM\n4NwnvJpglSNhCB8AgszhVJPTxdf3bbRnjnfmREX9CQZI2jGVmn+LQ3I0oy6eZIE7\n8hwrpHnBAC1IGFUg5BGWvBnvpb8cgKFlY+8iOUZRb1l4zFOTpjtAwJB3gbu46S3p\nrl2XRdK0WdvA29tfKNAM6g==\n-----END PRIVATE KEY-----\n",
+  "client_email": "ansible-admin@project1-398706.iam.gserviceaccount.com",
+  "client_id": "103467691438403334461",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ansible-admin%40project1-398706.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
