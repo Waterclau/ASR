@@ -25,4 +25,11 @@ Este comando configura un HPA que mantendrá gestionadas entre $min_replicas y m
 --max: Máximo de réplicas permitidas.
 He remplazado $php_deployment con php-apache, $cpu_threshold con 50, $min_replicas con 2, y $max_replicas con 10. 
 
+Una vez el HPA está configurado, podemos comprobar su estado mediante el siguiente comando: 
+
+![image](https://github.com/Waterclau/ASR/assets/91564866/acd41651-c613-4e39-bb5a-382494f6a035)
+
+
+
+
 
