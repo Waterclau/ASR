@@ -45,6 +45,26 @@ Por último, comprobamos la cantidad actual de nodos en el clúster para confirm
 
 ![image](https://github.com/Waterclau/ASR/assets/91564866/b2907949-3ad0-4e00-82f0-58ca2e851797)
 
+## 4. Test con alta demanda 
+
+Para ejecutar una prueba con alta demanda , ejecutamos el siguiente comando: 
+
+![image](https://github.com/Waterclau/ASR/assets/91564866/03411595-7313-42b7-93cf-c5b961297471)
+
+Esto generará un bucle infinito de consultas a nuestro servicio, creando una alta demanda artificial.
+
+Tras esto podemos verificar el estado de HPA: 
+
+![image](https://github.com/Waterclau/ASR/assets/91564866/d4b27fb5-89df-4131-87ba-b7e23ab86152)
+
+## 5. Liberación de recursos 
+
+![image](https://github.com/Waterclau/ASR/assets/91564866/4ed0a9f4-79fa-4e21-8141-f7a5ffb032ee)
+
+
+
+
+
 
 
 
