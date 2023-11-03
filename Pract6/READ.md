@@ -15,4 +15,14 @@
 
 Podemos comprobar como todo funciona correctamente ya que nos muestra que tenemos un despliegue llamado php-apache y que hay 3/3 pods funcionando de manera correcta.
 
+## 4. Aplicar el HPA
+
+![image](https://github.com/Waterclau/ASR/assets/91564866/067952cf-6e52-428e-ba29-ecf88d3ad8c6)
+
+Este comando configura un HPA que mantendrá gestionadas entre $min_replicas y max_replicas replicas de los pods controlados por el despliegue php_deployment, donde hay que tener en cuenta los siguientes argumentos: 
+--cpu-percent: Umbral de uso de CPU para activar el escalado automático.
+--min: Mínimo de réplicas que se mantendrán activas.
+--max: Máximo de réplicas permitidas.
+He remplazado $php_deployment con php-apache, $cpu_threshold con 50, $min_replicas con 2, y $max_replicas con 10. 
+
 
