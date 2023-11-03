@@ -35,6 +35,20 @@ Habilitamos el autoescalado del clúster con un mínimo de 1 nodo y un máximo d
 
 ![image](https://github.com/Waterclau/ASR/assets/91564866/62ac751e-534e-429b-9c48-9e57073a00ec)
 
+De esta manera activamos la capacidad del clúster para ajustar automáticamente el número de nodos según la carga de trabajo.
+
+También podemos cambiar el perfil de autoescalado. Esto significa que el clúster autoescalará de manera más agresiva, eliminando nodos más rápidamente si no son necesarios.
+
+![image](https://github.com/Waterclau/ASR/assets/91564866/2f605fda-14e9-4990-8a34-cf20edee4fe0)
+
+Por último, comprobamos la cantidad actual de nodos en el clúster para confirmar que el autoescalado está funcionando según lo esperado: 
+
+![image](https://github.com/Waterclau/ASR/assets/91564866/b2907949-3ad0-4e00-82f0-58ca2e851797)
+
+
+
+
+
 
 
 
