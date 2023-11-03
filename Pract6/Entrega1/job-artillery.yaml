@@ -1,0 +1,20 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: artillery-job
+spec:
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+      - name: artillery-container
+        image: artilleryio/artillery
+        command: ["artillery", "run", "/config/artillery-scenario.yaml"]
+        volumeMounts:
+        - name: config-volume
+          mountPath: /config
+      volumes:
+      - name: config-volume
+        configMap:
+          name: config_map_asr
+  backoffLimit: 4

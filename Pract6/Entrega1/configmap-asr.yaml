@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config-map-asr
+data:
+  artillery-scenario.yaml: |
+    config:
+      target: "https://example.com"
+      phases:
+        - duration: 60
+          arrivalRate: 5
+
+    scenarios:
+      - flow:
+          - get:
+              url: "/"
